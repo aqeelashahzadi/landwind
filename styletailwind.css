@@ -1,0 +1,524 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Noto Sans ;
+}
+:root
+{
+    --purplecol:rgb(108,43,217);
+    --backgroundcol:rgb(249,250,251);
+    --textcol:RGB(107, 114, 128);
+}
+.navbar
+{
+   display: flex;
+   background-color: white; 
+   margin-left: 40px;
+   margin-top: 20px;
+}
+.LandWidindex
+{
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.listli
+{
+    margin-left: 17%;
+}
+.listli ul li
+{
+    list-style-type:  none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.listli ul li:hover
+{
+    color: var(--purplecol);
+}
+.listli ul li:active
+{
+    color: var(--purplecol);
+}
+.listli ul
+{
+    display: flex;
+}
+.button1st button
+{
+    color: white;
+    background-color: var(--purplecol);
+    margin-top: 10px;
+    width: 100px;
+    height: 6vh;
+    border: 1px solid;
+    border-radius: 7px;
+    margin-left: 40PX;
+}
+.button1st button:hover
+{
+    background-color:rgb(74, 15, 177) ;
+}
+.wraper
+{
+    width: 90%;
+    margin-left: 60px;
+}
+.flexingclass
+{
+    display: flex;
+    width: 100%;
+    
+    margin-top: 100px;
+}
+.side1
+{
+    width: 50%;
+}
+.side2
+{
+    width: 49%;
+    margin-left: 100px;
+}
+
+.github
+{
+    display: flex;
+    margin-top: 20px;
+}
+.butstyle button
+{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+}
+#butstyle
+{
+    margin-left: 20px;
+}
+.butstyle
+{
+ border: 1px solid;
+ border-radius: 6px;
+ width: 220px;
+ height: 5vh;
+
+}
+.butstyle:hover,.butstyle button:hover
+{
+    background-color: rgb(216, 214, 214);
+}
+.butstyle i{
+    font-size: 22px;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+
+.side1 h1{
+    color: black;
+    font-weight: 1000;
+    font-size: 50px;
+}
+.textheading
+{
+    margin-top: 20px;
+    color: RGB(107, 114, 128);
+    font-weight:300;
+font-size:20px;
+}
+
+.paddingdiv
+{
+    margin-top: 30px;
+    display: flex;
+}
+.card1
+{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    margin-left: 40px;
+
+}
+.portion1
+{
+    padding-top: 50px;
+    width: 50%;
+    
+}
+.portion1 h2{
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.portion1 p{
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 30px;
+    color: var(--textcol);
+    letter-spacing: 1px;
+}
+.portion2
+{
+    padding-top: 40px;
+    width: 49%;
+}
+.backcol
+{
+    background-color: var(--backgroundcol);
+}
+.rule hr
+{
+    color: rgb(241, 237, 237);
+    margin-top: 40px;
+}
+.checkm
+{
+    color: var(--purplecol);
+    margin-right: 20px;
+}
+.checkconindex
+{
+    display: flex;
+    margin-top: 20px;
+}
+.portion1
+{
+    margin-left: 60px;
+}
+.condition p
+{
+    padding-left: 70px;
+   padding-left: -50px;
+}
+.paraindex2
+{
+    margin-top: 20px;
+    color:RGBA(163, 165, 170, 1);
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.purpulecol p
+{
+    color: var(--purplecol );
+    font-weight: 600;
+    font-size: 20px;
+}
+.arrow1
+{
+    display: flex;
+    margin-top: 30px;
+}
+.explore2
+{
+    margin-left: 10px;
+    color: var(--purplecol);
+}
+.explore a
+{
+    color: var(--purplecol);
+    font-style: none;
+}
+.clasflex
+{
+    display: flex;
+}
+.fiftyper1
+{
+    width: 60%;
+}
+.sidebar
+{
+    width: 40%;
+    margin-top: 100px;
+    padding-top: 30px;
+    margin-left: -100px;
+}
+#side
+{
+    margin-left: 68px;
+}
+.classimg h3
+{
+    font-weight: 900;
+
+}
+.classimg p
+{
+    color: var(--textcol) ;
+    font-weight: 200;
+}
+#sliding
+{
+  margin-left: 100px;  
+}
+.quote
+{
+    background-color: var(--backgroundcol);
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.quote h3{
+    font-size: 20px;
+    font-weight:500;
+    line-height: 40px;
+}
+.man1
+{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.man2 img
+{
+    border-radius: 200px;
+   
+}
+.man3
+{
+    margin-left: -120px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.heading h2
+{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 20px;
+}
+.heading2 p
+{
+    color: var(--textcol);
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.carda1
+{
+    margin-top: 90px;
+    margin-left: 60px;
+    display: flex;
+
+}
+.cardborder
+{
+    border: 3px solid rgb(219, 217, 217);
+    border-radius: 30px;
+    width: 370px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.carda2 h4
+{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+.carda2 p
+{
+    color: var(--textcol);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+}
+.cardb1 h2
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.cardb1 p
+{
+    text-align: center;
+    color: var(--textcol);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cardb1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.cardc2
+{
+    color: rgb(14,159,110);
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.cardc3
+{
+    margin-left: 40px;
+    margin-top: -21px;
+    margin-bottom: 10px;
+}
+.cardbutton button
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: var(--purplecol);
+    color: white;
+    width: 90%;
+    border: 1px solid var(--purplecol);
+    border-radius: 9px;
+    height: 7vh;
+    font-size: 15px;
+    font-weight: 400;
+}
+.line 
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+
+}
+.heading12
+{
+    font-size: 60px;
+    font-weight: 1000;
+}
+.line1
+{
+    margin-top: 50px;
+}
+.line3a
+{
+    margin-top: -20px;
+    text-align: end;
+}
+.line2a
+{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+.line1 hr
+{
+color: var(--textcol);
+}
+.grey1
+{
+    margin-top: 30px;
+    color: var(--textcol);
+}
+#cardbutton5 button
+{
+    width: 20%;
+}
+.footer
+{
+    margin-top: 60px;
+}
+.footer2 ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.footer1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.ruler123
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.image123
+{
+    margin-left: 40%;
+}
+.images1234
+{
+  text-align: center; 
+  margin-top: 10px; 
+}
+.staric
+{
+    display: flex;
+    margin-top: 18PX;
+    margin-left: 90PX;
+}
+.staric1
+{
+    border: 2px solid rgb(192, 191, 191);
+    height: 4vh;
+    text-align: center;
+    margin-left: 30px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 70px;
+    background-color:rgb(243,246,249);
+}
+.staric1:hover{
+    background-color:rgb(216, 216, 216) ;
+}
+.staric2
+{
+    border: 2px solid rgb(199, 198, 198);
+    height: 4vh;
+    text-align: center;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 50px;
+}
+.staric2:hover{
+    color: blue;
+}
+.carda1
+{
+    margin-left: 120px;
+}
+.cardbutton button:hover
+{
+    background-color: rgb(90, 49, 161);
+}
+.end
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.end1 
+{
+    padding-left: 20px;
+}
+.button1st button
+{
+    
+    border: 1px solid var(--purplecol);
+}
+.paddingdiv
+{
+    justify-content: space-around;
+}
+.hide1
+{
+    color: var(--textcol);
+    opacity: 0;
+    position: absolute;
+}
+.line3a :hover,.hide1
+{
+opacity: 1;
+}
